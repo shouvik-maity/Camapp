@@ -61,6 +61,12 @@ fun HomeScreen(navController: NavController) {
             route = "camera",
             icon = Icons.Filled.CameraAlt,
         ),
+        HomeTile(
+            title = "Report",
+            subtitle = "Risk summary",
+            route = "report",
+            icon = Icons.Filled.NetworkCheck,
+        ),
     )
 
     Column(
