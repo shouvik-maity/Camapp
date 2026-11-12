@@ -15,6 +15,10 @@ interface LanScanner {
     fun sweep(): Flow<LanDevice>
 }
 
+interface CameraSweepScanner {
+    fun sweep(): CameraSweepResult
+}
+
 interface RiskScorer {
     fun score(findings: List<Finding>): Pair<Int, com.yourapp.hiddencam.fusion.RiskLevel>
 }

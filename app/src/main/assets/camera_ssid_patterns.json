@@ -1,0 +1,28 @@
+{
+  "patterns": [
+    "^ipc",
+    "^hd-",
+    "cam",
+    "^yi-",
+    "tuya",
+    "smartlife",
+    "ezviz",
+    "v380",
+    "icsee",
+    "wifi_cam",
+    "^dahua",
+    "^hik"
+  ],
+  "ble": [
+    "camera",
+    "ipcam",
+    "dvr",
+    "nvr",
+    "ezviz",
+    "hikvision",
+    "dahua",
+    "reolink",
+    "tapo",
+    "yi"
+  ]
+}
